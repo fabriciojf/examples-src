@@ -1,7 +1,6 @@
 <?php
 
-$ddl = file('./file_to_array.in');
-
+$ddl = file('./inputs/file_to_array.in');
 $content = '';
 
 foreach($ddl as $line)
